@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Purchasing and Inquiries</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="animate.min.css">
+    <link href="about.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <ul id="main-nav">
+            <li class="button-holder"><a class="button outline" href="/about.html">Home<span class="lines"></span></a></li>
+            <li class="button-holder"><a class="button outline" href=#">Artwork<span class="lines"></span></a></li>
+            <li class="button-holder"><a class="button outline" href="/purchasing.html">Purchasing and Inquiries<span class="lines"></span></a></li>
+        </ul>
+        <div class="column">
+            <h1>Purchasing and General Inquiries</h1>
+            <p>If you are interested in purchasing a particular piece or you wish to inquire about a piece that you saw on this site, please fill out the form below. <br /><br />
+            Please indicate in the message box whether you are just inquiring about the artwork, or if you are intending to buy the piece. </p>
+            <div id="inputBox" class="col-sm-2 col-md-6">
+                <form method="POST" action="https://formspree.io/GTW4070@gmail.com">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email Address" required />
+                    <input type="number" name="artnumber" placeholder="Artwork Number" required />
+                    <input type="text" name="description" placeholder="Description of the Piece" required />
+                    <input type="number" name="phone" placeholder="Phone Number (optional)" />
+                    <textarea name="message" placeholder="Message" required></textarea><br /><br />
+                    <button id="submitbutton" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
