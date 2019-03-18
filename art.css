@@ -121,15 +121,25 @@ h2 {
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
+    color: #3e4b4c;
 }
+
+a {
+    color: #3e4b4c;
+}
+
+    a:hover {
+        color: #102f35;
+    }
 
 .main-miniatures-container {
     margin-left: 60px;
     max-width: 900px;
+    margin-right: 60px;
 }
 
 .main-miniatures-container img {
-    width: 200px;
+    width: 180px;
     height: 250px;
 }
 
